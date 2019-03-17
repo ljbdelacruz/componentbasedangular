@@ -1,0 +1,37 @@
+.mpr{
+    background-color:transparent !important;
+}
+
+
+.img{
+    // background-color: black;
+    float:right !important;
+    width:150px !important;
+    height: 150px !important;
+    border-radius: 5px !important;
+}
+.mpr-container{
+    margin-left: 5px;
+    float:right !important;
+    // background-color: blue !important;
+    width:300px !important;
+    height:100% !important; 
+}
+.mpr-text-align{
+    float:left !important;
+}
+.mpr-text-title{
+    font-size: 20px !important;
+}
+.mpr-description-label{
+    font-size:10px !important;
+}
+.mpr-description{
+    font-size:11px !important;
+}
+.mpr-before-price{
+    font-size:11px !important;
+}
+.mpr-now-price{
+    font-size: 20px !important;
+}

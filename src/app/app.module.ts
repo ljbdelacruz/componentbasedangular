@@ -9,7 +9,8 @@ import { DashboardComponent } from './page/dashboard/dashboard.component';
 
 import {ButtonDesign1Component} from './components/buttons/button-design1/button-design1.component';
 import { UnderlinedTextFieldsComponent } from './components/textfields/underlined-text-fields/underlined-text-fields.component';
-import { RegistrationComponent } from './page/registration/registration.component'
+import { RegistrationComponent } from './page/registration/registration.component';
+import {MarketplacerowComponent} from './components/tables/rows/marketplacerow/marketplacerow.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { RegistrationComponent } from './page/registration/registration.componen
     ButtonDesign1Component,
     //textfields components
     UnderlinedTextFieldsComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    MarketplacerowComponent
   ],
   imports: [
     BrowserModule,
