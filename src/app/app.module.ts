@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -7,8 +8,8 @@ import { LogincomponentComponent } from './page/logincomponent/logincomponent.co
 import { DashboardComponent } from './page/dashboard/dashboard.component';
 
 import {ButtonDesign1Component} from './components/buttons/button-design1/button-design1.component';
-import { UnderlinedTextFieldsComponent } from './components/textfields/underlined-text-fields/underlined-text-fields.component'
-
+import { UnderlinedTextFieldsComponent } from './components/textfields/underlined-text-fields/underlined-text-fields.component';
+import { RegistrationComponent } from './page/registration/registration.component'
 
 @NgModule({
   declarations: [
@@ -19,11 +20,13 @@ import { UnderlinedTextFieldsComponent } from './components/textfields/underline
     //button components
     ButtonDesign1Component,
     //textfields components
-    UnderlinedTextFieldsComponent
+    UnderlinedTextFieldsComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

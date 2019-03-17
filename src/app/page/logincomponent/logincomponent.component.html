@@ -1,3 +1,20 @@
 <div>
-  <app-button-design1 [label]="'Login'"></app-button-design1>
+  <table>
+    <tr>
+      <td>
+          <underlined-text-fields [placeholder]="uiEmail.placeholder" [type]="uiEmail.type"></underlined-text-fields>
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <underlined-text-fields [placeholder]="uiPassword.placeholder" [type]="uiPassword.type"></underlined-text-fields>
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <app-button-design1 [label]="'Login'"></app-button-design1>
+      </td>
+    </tr>
+  </table>
+  
 </div>

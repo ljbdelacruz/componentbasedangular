@@ -1,1 +1,4 @@
-<input class="{{mystyle}}" placeholder="{{placeholder}}" type="{{type}}" />
+<div>
+    <h1 class="{{placeholderStyle}}">{{placeholder}}</h1>
+    <input class="{{mystyle}}" placeholder="{{placeholder}}" type="{{type}}" [(ngModel)]="textValue" (ngModelChange)="onTextChange($event)"/>
+</div>

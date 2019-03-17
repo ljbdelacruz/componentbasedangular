@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { UnderlinedTextFieldsComponent } from './underlined-text-fields.component';
 
 describe('UnderlinedTextFieldsComponent', () => {
